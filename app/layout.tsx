@@ -17,8 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex flex-col items-center justify-center">
-        <div className="flex items-center justify-center my-3">
+      <body className="flex flex-col items-center justify-center bg-slate-800">
+        <div className="flex items-center justify-center my-4">
           <Image src="/logo.png" alt="logo" width={300} height={201} />
         </div>
         <main>{children}</main>
